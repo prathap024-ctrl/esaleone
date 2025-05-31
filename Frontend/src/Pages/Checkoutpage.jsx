@@ -81,7 +81,7 @@ const Checkout1 = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/orders/new-order",
+        "https://esaleone-1.onrender.com/api/orders/new-order",
         orderData,
         {
           headers: {

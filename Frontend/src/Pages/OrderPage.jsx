@@ -17,7 +17,7 @@ function OrderTracking1() {
     const fetchOrders = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/orders/fetch-order",
+          "https://esaleone-1.onrender.com/api/orders/fetch-order",
           {
             headers: {
               "Content-Type": "application/json",
